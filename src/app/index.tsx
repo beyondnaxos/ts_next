@@ -3,6 +3,7 @@ import { getPosts } from './api/api'
 import { Post } from './types'
 
 export default function HomePage() {
+
   const [posts, setPosts] = useState<Post[]>([])
 
   useEffect(() => {
@@ -16,4 +17,5 @@ export default function HomePage() {
       ))}
     </ul>
   )
+  
 }

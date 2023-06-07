@@ -9,7 +9,7 @@ const FAKE_POSTS: Post[] = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse',
   },
   {
-    id: 2,
+    id: 5,
     title: 'Mon deuxième post',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse',
